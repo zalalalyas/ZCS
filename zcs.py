@@ -17,7 +17,7 @@ bot = telebot.TeleBot(TOKEN)
 # Function to get live market price from Alpha Vantage
 def get_price(asset):
     # Replace 'YOUR_ALPHA_VANTAGE_API_KEY' with your actual Alpha Vantage API key
-    api_key = '8RPEYWCZRGUCGSQE'
+    api_key = 'TUUUSY584HJAMRRW'
     url = f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={asset}&apikey={api_key}'
     response = requests.get(url)
     data = response.json()
